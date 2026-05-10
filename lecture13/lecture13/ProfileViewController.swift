@@ -100,11 +100,9 @@ class ProfileViewController: UIViewController {
         profileImageView.layer.borderColor = UIColor.systemPurple.cgColor
     }
     
-    // MARK: - Labels
     
     private func setupLabels() {
 
-        // MARK: - Name Label
 
         view.addSubview(nameLabel)
 
@@ -132,9 +130,6 @@ class ProfileViewController: UIViewController {
         nameLabel.textColor = .black
 
 
-
-        // MARK: - Profession Label
-
         view.addSubview(professionLabel)
 
         professionLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -159,10 +154,6 @@ class ProfileViewController: UIViewController {
             ofSize: 24,
             weight: .regular
         )
-
-
-
-        // MARK: - Emoji Label
 
         view.addSubview(emojiLabel)
 
