@@ -41,7 +41,7 @@ class WelcomeViewController: UIViewController {
             imageView.heightAnchor.constraint(equalToConstant: 250)
         ])
 
-        imageView.image = UIImage(named: "steve")
+        imageView.image = UIImage(named: "stive")
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
 
